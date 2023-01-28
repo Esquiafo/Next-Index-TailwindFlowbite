@@ -1,7 +1,7 @@
 
 import React,{useState,useEffect} from "react";
 import BigNavbar from "./BigNav"
-import { Button, Menu, MenuList, MenuTrigger, PopoverProps } from "@fluentui/react-components";
+import { Button, Menu, MenuList, MenuTrigger } from "@fluentui/react-components";
 import { ChevronDown28Filled} from '@fluentui/react-icons';
 
 
@@ -33,13 +33,6 @@ export default function Navbar() {
   </Menu>
 
         
-     
- 
- 
-
-       
-
- 
         
     )
 }
