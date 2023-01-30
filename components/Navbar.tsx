@@ -25,9 +25,7 @@ export default function Navbar() {
 
     </button>
     </div>
-    <span className="absolute flex text-start box-decoration-clone bg-gradient-to-r from-indigo-600 to-pink-500 text-white">
-<h1 className="text-xl text-start font-medium text-gray-900 dark:text-white">LOGO</h1>
-</span>
+
     <div className={`mt-2 relative ${open} transition duration-300`} style={{border: 'none'}}>
         <BigNavbar  />
     </div>
