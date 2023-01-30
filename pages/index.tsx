@@ -1,6 +1,5 @@
 import Head from "next/head";
 import React,{ useEffect, useState } from "react";
-import Navbar from "@/components/Navbar";
 import FrontPage from "@/components/FrontPage";
 export default function Home() {
 
@@ -13,7 +12,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       
-<div className="grid justify-center align-center">
+<div className=" justify-center text-center align-center">
 
 <FrontPage></FrontPage>
 
