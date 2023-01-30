@@ -84,10 +84,10 @@ let CategoryView = categoryContent.map(units => {
 
  
 <div className=" flex flex-col">
-<h1 className=" m-5 pt-5 text-xl text-start font-medium text-gray-900 dark:text-white">
+<h1 className=" m-3 pt-5 text-xl text-start font-medium text-gray-900 dark:text-white">
        Marcas
 </h1>
-<div  className="m-5 mt-5 ">
+<div  className="mx-2 mb-5 ">
 {CategoryView}
 </div>
 </div>

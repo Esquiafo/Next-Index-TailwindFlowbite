@@ -16,10 +16,10 @@ export default function FrontPage() {
          <div className="">
         <IndexContext></IndexContext>
          </div>
-         <div className="ml-5 ">
+         <div className="">
           <GroupComponente></GroupComponente>
          </div>
-         <div className="ml-5 ">
+         <div className="">
           <GroupMarcas></GroupMarcas>
          </div>
          <div className="">
