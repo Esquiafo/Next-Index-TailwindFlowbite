@@ -20,8 +20,8 @@ export default function BigNav() {
      
 
 
-<div className=''>
-<div >
+<div>
+<div>
 <div className='inline-block flex flex-wrap justify-center'>
 <button  style={{width: '125px', height: '35px'}} className='flex justify-center' >
 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-6 h-6 ml-6">

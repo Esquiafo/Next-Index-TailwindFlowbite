@@ -10,13 +10,16 @@ export default function Foot() {
 
   
 <div>
+<div className="text-start">
+
+</div>
 <Footer>
   <div className="w-full">
-    <div className="grid w-full grid-cols-2 gap-8 py-8 px-6 md:grid-cols-4">
-      <div>
-        <Footer.Title title="Company" />
-        <Footer.LinkGroup col={true}>
-          <Footer.Link href="#">
+    <div className="grid w-full grid-cols-2  gap-8 py-8 px-6 md:grid-cols-4">
+      <div style={{marginLeft: '25%'}}>
+        <Footer.Title title="Company"  className=" text-start " />
+        <Footer.LinkGroup col={true}  className=" text-start ">
+          <Footer.Link href="#" >
             About
           </Footer.Link>
           <Footer.Link href="#">
@@ -30,26 +33,26 @@ export default function Foot() {
           </Footer.Link>
         </Footer.LinkGroup>
       </div>
-      <div>
-        <Footer.Title title="help center" />
-        <Footer.LinkGroup col={true}>
+      <div style={{marginLeft: '25%'}}>
+        <Footer.Title title="Redes"  className=" text-start " />
+        <Footer.LinkGroup col={true}  className=" text-start ">
           <Footer.Link href="#">
-            Discord Server
+            Discord
           </Footer.Link>
           <Footer.Link href="#">
-            Twitter
+            Instagram
           </Footer.Link>
           <Footer.Link href="#">
-            Facebook
+            Whatsapp
           </Footer.Link>
           <Footer.Link href="#">
-            Contact Us
+            Email
           </Footer.Link>
         </Footer.LinkGroup>
       </div>
-      <div>
-        <Footer.Title title="legal" />
-        <Footer.LinkGroup col={true}>
+      <div style={{marginLeft: '25%'}}>
+        <Footer.Title title="Legal"  className=" text-start " />
+        <Footer.LinkGroup col={true}  className=" text-start ">
           <Footer.Link href="#">
             Privacy Policy
           </Footer.Link>
@@ -61,20 +64,17 @@ export default function Foot() {
           </Footer.Link>
         </Footer.LinkGroup>
       </div>
-      <div>
-        <Footer.Title title="download" />
-        <Footer.LinkGroup col={true}>
+      <div style={{marginLeft: '25%'}}>
+        <Footer.Title title="Nosotros"  className=" text-start " />
+        <Footer.LinkGroup col={true}  className=" text-start ">
           <Footer.Link href="#">
-            iOS
+            Empresa
           </Footer.Link>
           <Footer.Link href="#">
-            Android
+            Vision
           </Footer.Link>
           <Footer.Link href="#">
-            Windows
-          </Footer.Link>
-          <Footer.Link href="#">
-            MacOS
+            Trayectoria
           </Footer.Link>
         </Footer.LinkGroup>
       </div>
